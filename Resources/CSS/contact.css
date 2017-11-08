@@ -1,0 +1,45 @@
+*{
+  background-color: #9bb8e8;
+  font-family: 'Acme', sans-serif;
+}
+
+footer {
+  padding-top: 1rem;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+button{
+  width: 100px;
+  color: dimgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.site-pages{
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.site-pages a {
+  color: black;
+}
+
+.directions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.written {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .map {
+    display: none;
+  }
+}
