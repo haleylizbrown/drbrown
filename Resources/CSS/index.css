@@ -4,6 +4,102 @@ html {
   background-color: #BDEAFF;
 }
 
-h1 {
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #00AEFF;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 5rem;
+  padding-left: 2rem;
+}
+
+ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+a {
+  color: white;
+}
+
+ul li:hover {
+  color: purple;
+}
+
+#services,
+#forms {
+  padding-right: 2rem;
+}
+
+.jumbotron {
+  height: 40rem;
+}
+
+.jumbotron img {
+  display: flex;
+  position: relative;
+  height: 40rem;
+  width: 100%;
+  top: 5rem;
+}
+
+.jumbotron h1 {
+  position: relative;
+  bottom: 19rem;
   font-size: 2rem;
+  background-color: #05577F;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.info {
+  display: flex;
+  position: relative;
+  top: 6rem;
+}
+
+.description {
+  background-color: #05577F;
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  margin-top: 2rem;
+}
+
+.description p {
+  color: white;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hours {
+  background-color: #05577F;
+  position: absolute;
+  width: 30%;
+  right: 10%;
+  color: white;
+  padding-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.hours h3 {
+  text-decoration: underline;
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
