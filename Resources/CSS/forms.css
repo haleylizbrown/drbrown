@@ -1,0 +1,66 @@
+html {
+  font-family: 'Ayuthaya', sans-serif;
+  font-size: 16px;
+  background-color: #BDEAFF;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #00AEFF;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 5rem;
+  padding-left: 2rem;
+}
+
+ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+a {
+  color: white;
+}
+
+ul li:hover {
+  color: black;
+}
+
+#services,
+#forms {
+  padding-right: 2rem;
+}
+
+.patients {
+  position: relative;
+  top: 20rem;
+}
+
+.copyright {
+  position: relative;
+  display: flex;
+  top: 50rem;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.copyright a {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright p {
+  font-size: .75rem;
+}

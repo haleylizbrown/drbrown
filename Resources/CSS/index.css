@@ -37,6 +37,7 @@ ul li:hover {
   color: black;
 }
 
+#home,
 #services,
 #forms {
   padding-right: 2rem;
