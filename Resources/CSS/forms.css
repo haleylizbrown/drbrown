@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  display: flex;
   margin: 0;
 }
 
@@ -29,7 +30,7 @@ ul li {
   margin-right: 2rem;
 }
 
-a {
+nav a {
   color: white;
 }
 
@@ -37,30 +38,54 @@ ul li:hover {
   color: black;
 }
 
+#home,
 #services,
 #forms {
   padding-right: 2rem;
 }
 
 .patients {
-  position: relative;
-  top: 20rem;
+  position: absolute;
+  top: 7rem;
+  padding-left: 2rem;
+}
+
+.medicare {
+  display: flex;
+  position: absolute;
+  top: 14rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.medicare ul a li {
+  color: black;
+  display: inline;
+}
+
+.medicare a {
+  text-decoration: none;
+}
+
+.medicare ul a li:hover {
+  text-decoration: underline;
+}
+
+#acknowledgement {
+  padding-left: 6rem;
 }
 
 .copyright {
-  position: relative;
   display: flex;
-  top: 50rem;
+  position: relative;
+  top: 40rem;
+  font-size: 0.75rem;
+  padding-right: 2rem;
   width: 100%;
   justify-content: flex-end;
-  align-items: flex-end;
 }
 
 .copyright a {
   color: black;
   text-decoration: none;
-}
-
-.copyright p {
-  font-size: .75rem;
 }
