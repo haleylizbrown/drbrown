@@ -67,8 +67,8 @@ ul li:hover {
 
 .copyright {
   display: flex;
-  position: relative;
-  top: 20rem;
+  position: absolute;
+  bottom: 0;
   font-size: 0.75rem;
   width: 100%;
   justify-content: flex-end;
