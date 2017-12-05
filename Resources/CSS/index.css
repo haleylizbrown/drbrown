@@ -61,8 +61,8 @@ ul li:hover {
   font-size: 2rem;
   background-color: #05577F;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
   color: white;
 }
 

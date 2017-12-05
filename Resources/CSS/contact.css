@@ -1,45 +1,81 @@
-*{
-  background-color: #9bb8e8;
-  font-family: 'Acme', sans-serif;
+html {
+  font-family: 'Ayuthaya', sans-serif;
+  font-size: 16px;
+  background-color: #BDEAFF;
 }
 
-footer {
-  padding-top: 1rem;
-  font-size: 12px;
-  text-align: center;
-
+body {
+  margin: 0;
 }
 
-button{
-  width: 100px;
-  color: dimgray;
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #00AEFF;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-h1 {
-  text-align: center;
+nav img {
+  height: 5rem;
+  padding-left: 2rem;
 }
 
-.site-pages{
-  padding-bottom: 1rem;
-  text-align: center;
+ul li {
+  display: inline;
+  margin-right: 2rem;
 }
 
-.site-pages a {
+a {
+  color: white;
+}
+
+ul li:hover {
   color: black;
 }
 
-.directions {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+#home,
+#services,
+#forms {
+  padding-right: 2rem;
 }
 
-.written {
+.address {
+  position: relative;
+  top: 8rem;
+  width: 100%;
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
-  .map {
-    display: none;
-  }
+.address p {
+  line-height: 0.5rem;
+}
+
+.contact {
+  position: relative;
+  top: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+.contact p {
+  line-height: 0.5rem;
+}
+
+.copyright {
+  display: flex;
+  position: relative;
+  top: 20rem;
+  font-size: 0.75rem;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.copyright a {
+  color: black;
+  text-decoration: none;
+  padding-right: 2rem;
 }
