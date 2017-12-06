@@ -43,26 +43,48 @@ ul li:hover {
   padding-right: 2rem;
 }
 
-.address {
+.services-1 {
+  display: flex;
   position: relative;
-  top: 12rem;
-  width: 100%;
-  text-align: center;
+  top: 10rem;
+  justify-content: space-around;
 }
 
-.address p {
-  line-height: 0.5rem;
+.services-1 img {
+  padding-left: 2rem;
+  width: 25%;
+  height: 25%;
 }
 
-.contact {
+.services-2 {
+  display: flex;
   position: relative;
-  top: 14rem;
-  width: 100%;
-  text-align: center;
+  top: 15rem;
+  justify-content: space-around;
 }
 
-.contact p {
-  line-height: 0.5rem;
+.services-2 img {
+  width: 25%;
+  height: 25%;
+}
+
+.description-1 {
+  display: flex;
+  position: relative;
+  top: 10rem;
+  justify-content: space-around;
+}
+
+.description-2 {
+  display: flex;
+  position: relative;
+  top: 15rem;
+  justify-content: space-around;
+}
+
+#surgery {
+  width: 30%;
+  padding-right: 2rem;
 }
 
 .copyright {
