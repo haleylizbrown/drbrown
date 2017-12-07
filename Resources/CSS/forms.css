@@ -50,20 +50,33 @@ ul li:hover {
   padding-left: 2rem;
 }
 
-.medicare {
-  position: relative;
+.forms-1 {
+  display: flex;
+  position: absolute;
   top: 14rem;
   width: 100%;
-  text-align: center;
+  justify-content: space-around;
 }
 
-.medicare a {
+.forms-2 {
+  display: flex;
+  position: absolute;
+  top: 20rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.forms-2 a {
   color: black;
   text-decoration: none;
 }
 
-.medicare a:hover {
+.forms-2 a:hover {
   text-decoration: underline;
+}
+
+#medicare2 {
+  padding-left: 2rem;
 }
 
 .copyright {
