@@ -77,7 +77,9 @@ ul li:hover {
   display: flex;
   position: relative;
   top: 10rem;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .description-2 {
