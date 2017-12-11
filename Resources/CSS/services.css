@@ -51,42 +51,26 @@ ul li:hover {
   display: flex;
   position: relative;
   top: 10rem;
-  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
 }
 
-.services-1 img {
-  padding-left: 2rem;
-  width: 25%;
-  height: 25%;
-
+.diabetic,
+.woundcare,
+.reconstructive,
+.vascular,
+.diagnostic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
 }
 
 .services-2 {
   display: flex;
   position: relative;
   top: 15rem;
-  justify-content: space-around;
-}
-
-.services-2 img {
-  width: 25%;
-  height: 25%;
-}
-
-.description-1 {
-  display: flex;
-  position: relative;
-  top: 10rem;
-  justify-content: space-between;
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
-.description-2 {
-  display: flex;
-  position: relative;
-  top: 15rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .copyright {
@@ -127,3 +111,5 @@ ul li:hover {
     padding-left: 2rem;
   }
 }
+
+/*Add Media Query to align Service images and descriptions vertically at min-width 1245px; keep background colors*/
