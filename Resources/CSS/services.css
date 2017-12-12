@@ -74,7 +74,13 @@ ul li:hover {
 
 #footcare,
 #wound,
-#surgery,
+#surgery {
+  width: 70%;
+  padding: 1rem;
+  background-color: #00577F;
+  box-shadow: 0.5rem 0.5rem 0.5rem #00577F;
+}
+
 #testing,
 #ultrasound {
   width: 50%;
