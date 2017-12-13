@@ -97,22 +97,24 @@ ul li:hover {
   width: 100%;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 1rem;
 }
 
 .copyright a {
   color: black;
   text-decoration: none;
-}
-
-.copyright p {
   font-size: .75rem;
 }
 
-#contact {
+.address {
+  display: inline;
+}
+
+#office {
   padding-left: 2rem;
 }
 
-#email {
+.email {
   padding-right: 2rem;
 }
 
