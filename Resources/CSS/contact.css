@@ -1,5 +1,5 @@
 html {
-  font-family: 'Ayuthaya', sans-serif;
+  font-family: 'Bangla MN';
   font-size: 16px;
   background-color: #BDEAFF;
 }
@@ -88,6 +88,8 @@ ul li:hover {
 .email {
   padding-right: 2rem;
 }
+
+/*Media Queries*/
 
 @media only screen and (max-width: 1045px) {
   nav img {

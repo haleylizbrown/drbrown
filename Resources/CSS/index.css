@@ -1,5 +1,5 @@
 html {
-  font-family: 'Ayuthaya', sans-serif;
+  font-family: 'Bangla MN';
   font-size: 16px;
   background-color: #BDEAFF;
 }
@@ -63,7 +63,7 @@ ul li:hover {
   background-color: #05577F;
   text-align: center;
   padding-top: 0.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   color: white;
 }
 
