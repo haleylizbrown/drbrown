@@ -48,45 +48,40 @@ ul li:hover {
   padding-right: 2rem;
 }
 
+.map {
+  display: flex;
+  position: relative;
+  top: 10rem;
+  justify-content: center;
+}
+
 .address {
   position: relative;
   top: 12rem;
-  width: 100%;
   text-align: center;
+  line-height: 1;
 }
 
-.contact {
+.phone {
   position: relative;
-  top: 14rem;
-  width: 100%;
+  top: 12rem;
   text-align: center;
-}
-
-.footer {
-  position: relative;
-  display: flex;
-  top: 20rem;
-  width: 100%;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
-
-.footer a {
-  color: black;
-  text-decoration: none;
-  font-size: .75rem;
-}
-
-.address-footer {
-  display: inline-flex;
-}
-
-#office {
-  padding-left: 2rem;
+  padding-top: 0.5rem;
 }
 
 .email {
+  display: flex;
+  position: relative;
+  top: 14rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.email a {
   padding-right: 2rem;
+  color: black;
+  font-size: .75rem;
 }
 
 /*Media Queries*/
