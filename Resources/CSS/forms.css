@@ -23,6 +23,8 @@ nav {
 nav img {
   height: 5rem;
   padding-left: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 nav h2 {

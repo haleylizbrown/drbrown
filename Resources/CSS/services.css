@@ -26,6 +26,8 @@ nav h2 {
 nav img {
   height: 5rem;
   padding-left: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 ul li {
